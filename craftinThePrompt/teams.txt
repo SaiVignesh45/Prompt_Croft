@@ -1,0 +1,4 @@
+{
+    "team1": {"pw": "pass123", "idx": 1},
+    "team2": {"pw": "hack456", "idx": 2}
+}

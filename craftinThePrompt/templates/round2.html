@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Round 2 | Upload</title>
+</head>
+<body class="bg-gray-950 text-white font-mono min-h-screen flex items-center justify-center p-6">
+    <div class="bg-gray-900 border border-blue-500 p-10 max-w-xl w-full rounded-lg text-center">
+        <h1 class="text-3xl font-bold mb-4">Round 2 Upload</h1>
+        <p class="text-gray-400 mb-8">Upload your team's generated artifact for manual evaluation.</p>
+        
+        <form method="POST" enctype="multipart/form-data" class="space-y-6">
+            <input type="file" name="image" required class="block w-full text-sm text-gray-500 file:mr-4 file:py-3 file:px-4 file:rounded file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-500">
+            <button class="w-full bg-white text-black font-bold py-4 rounded hover:bg-gray-200 transition-colors uppercase">Submit Artifact</button>
+        </form>
+    </div>
+</body>
+</html>
